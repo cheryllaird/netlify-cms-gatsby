@@ -8,16 +8,18 @@ public_folder: /assets
 collections:
   - name: pages
     label: Pages
+    extension: "md"
+    format: "md"
     files:
       - name: welcome
         label: Welcome
-        file: "site/content/welcome.yml"
+        file: "site/content/welcome.md"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: markdown }
       - name: about
         label: About
-        file: "site/content/about.yml"
+        file: "site/content/about.md"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: markdown }
