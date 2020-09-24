@@ -1,15 +1,23 @@
 backend:
   name: github
   repo: cheryllaird/netlify-cms-gatsby
+
 media_folder: static/assets
 public_folder: /assets
+
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
-    create: true
+  - name: pages
+  label: Pages
+  files:
+    - name: welcome
+    label: Welcome
+    file: "site/content/welcome.yml"
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: markdown }
+    - name: about
+    label: About
+    file: "site/content/about.yml"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Intro, name: intro, widget: markdown }
