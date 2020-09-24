@@ -12,13 +12,13 @@ collections:
     files:
       - name: welcome
         label: Welcome
-        file: "site/content/welcome.md"
+        file: "site/content/welcome.json"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: markdown }
       - name: about
         label: About
-        file: "site/content/about.md"
+        file: "site/content/about.json"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: markdown }
