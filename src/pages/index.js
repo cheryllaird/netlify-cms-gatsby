@@ -27,8 +27,6 @@ export default function Home() {
                         <p>Praesent dapibus libero quis risus sollicitudin interdum. Nam tristique mauris ac tincidunt suscipit. Curabitur vel venenatis sem, quis rhoncus urna. Aliquam enim tellus, venenatis a ante in, pulvinar lobortis ipsum. Mauris at libero ut lorem rhoncus auctor vitae in purus.</p>
                     </div>
 
-                    <img src="../images/beer.jpg" alt="Beer" />
-
                 </section>
             </main>
             <Footer />

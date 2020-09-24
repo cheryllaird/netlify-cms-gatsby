@@ -81,7 +81,7 @@ a {
 
 .splash-banner:before {
     content: "";
-    background-image: url("../images/splash-pizza.jpg");
+    background-image: url("../assets/splash-pizza.jpg");
     background-size: cover;
     background-position: center;
     position: absolute;
