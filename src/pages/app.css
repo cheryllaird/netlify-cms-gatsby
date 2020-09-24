@@ -1,0 +1,145 @@
+:root {
+    --palette-black: #1E152A;
+    --palette-white: #FFFFFF;
+
+    --palette-primary: #ED6A5A;
+    --palette-primary-100: #ef796b;
+    --palette-primary-200: #f1887b;
+    --palette-primary-300: #f2978c;
+    --palette-primary-400: #f4a69c;
+    --palette-primary-500: #f6b5ad;
+    --palette-primary-600: #f8c3bd;
+    --palette-primary-700: #fad2ce;
+    --palette-primary-800: #fbe1de;
+    --palette-primary-900: #fdf0ef;
+
+    --palette-accent: #4e6766;
+    --palette-accent-100: #607675;
+    --palette-accent-200: #718585;
+    --palette-accent-300: #839594;
+    --palette-accent-400: #95a4a3;
+    --palette-accent-500: #a7b3b3;
+    --palette-accent-600: #b8c2c2;
+    --palette-accent-700: #cad1d1;
+    --palette-accent-800: #dce1e0;
+    --palette-accent-900: #edf0f0;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    background-color: var(--palette-white);
+    color: var(--palette-black);
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+header nav {
+    display: inline-flex;
+    margin-left: auto;
+}
+
+header nav a {
+    padding: 10px 20px;
+}
+
+main {
+    flex: 1;
+}
+
+main section {
+    padding: 0 10vw;
+}
+
+a {
+    text-decoration: none;
+    color: var(--palette-primary);
+}
+
+.brand-logo {
+    font-size: 1.2rem;
+}
+
+.splash-banner {
+    position: relative;
+    background-color: #282c34;
+    color: white;
+    min-height: 50vh;
+}
+
+.splash-banner:before {
+    content: "";
+    background-image: url("../images/splash-pizza.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.splash-banner h1 {
+    font-weight: 400;
+    display: block;
+    z-index: 1;
+    width: 35vw;
+}
+
+.intro {
+    font-size: 1.1rem;
+    position: relative;
+    text-align: center;
+    margin: 50px 0 100px;
+}
+
+.intro:after {
+    content: "";
+    display: block;
+    width: 25%;
+    margin-left: 50%;
+    border-bottom: 5px solid var(--palette-primary);
+    margin-top: 50px;
+    transform: translateX(-50%);
+}
+
+.drinks {
+    display: flex;
+    padding: 0 10vw;
+}
+
+.drinks .gatsby-image-wrapper {
+    width: 100%;
+    margin-left: 10vw;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10vw;
+    margin-top: 100px;
+    background-color: var(--palette-black);
+    color: var(--palette-white);
+}
+
+footer nav {
+    display: inline-flex;
+}
+
+footer nav a {
+    color: var(--palette-white);
+    padding: 10px 20px;
+}
