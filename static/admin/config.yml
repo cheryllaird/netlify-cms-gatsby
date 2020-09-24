@@ -8,8 +8,7 @@ public_folder: /assets
 collections:
   - name: pages
     label: Pages
-    extension: "md"
-    format: "md"
+    extension: "json"
     files:
       - name: welcome
         label: Welcome
