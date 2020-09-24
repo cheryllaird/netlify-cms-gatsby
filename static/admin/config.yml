@@ -7,17 +7,17 @@ public_folder: /assets
 
 collections:
   - name: pages
-  label: Pages
-  files:
-    - name: welcome
-    label: Welcome
-    file: "site/content/welcome.yml"
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: markdown }
-    - name: about
-    label: About
-    file: "site/content/about.yml"
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Intro, name: intro, widget: markdown }
+    label: Pages
+    files:
+      - name: welcome
+        label: Welcome
+        file: "site/content/welcome.yml"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: markdown }
+      - name: about
+        label: About
+        file: "site/content/about.yml"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: markdown }
