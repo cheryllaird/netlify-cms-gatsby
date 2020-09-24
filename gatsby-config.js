@@ -6,5 +6,15 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-netlify-cms`],
+  plugins: [
+      `gatsby-plugin-netlify-cms`,
+      `gatsby-transformer-json`,
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `site-content`,
+          path: `${__dirname}/site/content`,
+        },
+      },
+  ],
 }
