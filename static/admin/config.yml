@@ -8,17 +8,25 @@ public_folder: /assets
 collections:
   - name: pages
     label: Pages
-    extension: "json"
     files:
-      - name: welcome
-        label: Welcome
-        file: "site/content/welcome.json"
+      - name: home
+        label: "Home Page"
+        file: "site/content/home.md"
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: markdown }
-      - name: about
-        label: About
-        file: "site/content/about.json"
+          - { label: Banner, name: banner, widget: image }
+          - { label: "Home Content", name: body, widget: markdown }
+      - name: food
+        label: Food
+        file: "site/content/food.md"
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: markdown }
+          - { label: Banner, name: banner, widget: image }
+          - { label: Menu, name: body, widget: markdown }
+      - name: drinks
+        label: Drinks
+        file: "site/content/drinks.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Banner, name: banner, widget: image }
+          - { label: Menu, name: body, widget: markdown }
