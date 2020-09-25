@@ -5,8 +5,8 @@ export default function Footer() {
     return (
         <footer>
             <nav>
-                <Link to="/">Food</Link>
-                <Link to="/">Beers</Link>
+                <Link to="/food">Food</Link>
+                <Link to="/drinks">Drinks</Link>
                 <Link to="/">Events</Link>
                 <Link to="/">Contact</Link>
             </nav>

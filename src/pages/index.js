@@ -24,7 +24,7 @@ export default function Home({ data }) {
 }
 
 export const pageQuery = graphql`
-query MyQuery {
+query HomePageQuery {
   allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/home/" } }) {
     nodes {
       html,

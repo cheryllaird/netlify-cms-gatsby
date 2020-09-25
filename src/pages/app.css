@@ -115,9 +115,14 @@ a {
     transform: translateX(-50%);
 }
 
-.drinks {
+.food, .drinks {
     display: flex;
     padding: 0 10vw;
+}
+
+.food img, .drinks img {
+    width: 20vw;
+    margin-left: 10vw;
 }
 
 .drinks .gatsby-image-wrapper {
