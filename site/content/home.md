@@ -1,6 +1,7 @@
 ---
-title: Aliquam convallis pharetra urna, quis tristique enim.
-banner: /assets/beer.jpg
+title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam urna,
+  interdum et consectetur eu, dapibus nec nisl.
+banner: /assets/splash-pizza.jpg
 ---
 ## Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
