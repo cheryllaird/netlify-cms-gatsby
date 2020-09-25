@@ -8,17 +8,18 @@ public_folder: /assets
 collections:
   - name: pages
     label: Pages
-    extension: "json"
     files:
-      - name: welcome
-        label: Welcome
-        file: "site/content/welcome.json"
+      - name: home
+        label: "Home Page"
+        file: "site/content/home.md"
         fields:
           - { label: Title, name: title, widget: string }
+          - { label: Banner, name: banner, widget: image }
           - { label: Intro, name: intro, widget: markdown }
       - name: about
         label: About
-        file: "site/content/about.json"
+        file: "site/content/about.md"
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: markdown }
+          - { label: Summary, name: summary, widget: string }
+          - { label: About, name: about, widget: markdown }
