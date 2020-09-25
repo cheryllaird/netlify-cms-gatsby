@@ -1,6 +1,6 @@
 ---
-title: Welcome
-banner: /assets/splash-pizza.jpg
+title: Aliquam convallis pharetra urna, quis tristique enim.
+banner: /assets/beer.jpg
 intro: >-
   ## Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
