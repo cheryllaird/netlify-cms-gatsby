@@ -15,11 +15,18 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Banner, name: banner, widget: image }
-          - { label: Intro, name: intro, widget: markdown }
-      - name: about
-        label: About
-        file: "site/content/about.md"
+          - { label: "Home Content", name: body, widget: markdown }
+      - name: food
+        label: Food
+        file: "site/content/food.md"
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Summary, name: summary, widget: string }
-          - { label: About, name: about, widget: markdown }
+          - { label: Banner, name: banner, widget: image }
+          - { label: Menu, name: body, widget: markdown }
+      - name: drinks
+        label: Drinks
+        file: "site/content/drinks.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Banner, name: banner, widget: image }
+          - { label: Menu, name: body, widget: markdown }
