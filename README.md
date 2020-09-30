@@ -17,6 +17,6 @@ Note: You'll also see a second link: http://localhost:8000/___graphql. This is a
 - Content is pulled in from Netlify CMS
 - CMS input is defined in `static/admin/config.yml`
 - Upon publish of content inside of the CMS UI, content changes will be pushed up to master
-- Updates to the master branch with trigger a build in Netlify
-- After a build, the Lighthouse plugin will run to check site metrics against set thresholds, defined in `netlify.toml`.
+- Updates to the master branch will trigger a build in Netlify
+- After a successful build, the Lighthouse plugin will run to check site metrics against thresholds defined in `netlify.toml`.
 - When everything passes, Netlify will deploy the site.
